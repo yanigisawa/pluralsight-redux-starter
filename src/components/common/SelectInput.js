@@ -2,8 +2,8 @@ import React, {PropTypes} from 'react';
 
 const SelectInput = ({name, label, onChange, defaultOption, value, error, options}) => {
   return (
-    <div class="form-group">
-      <label for={name}>{label}</label>
+    <div className="form-group">
+      <label htmlFor={name}>{label}</label>
       <div className="field">
         <select
           name={name}
